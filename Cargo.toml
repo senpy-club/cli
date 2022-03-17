@@ -2,7 +2,7 @@
 
 [package]
 name = "senpy-cli"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Fuwn <contact@fuwn.me>"]
 edition = "2021"
 description = "Command-line interface to The Senpy Club API"
