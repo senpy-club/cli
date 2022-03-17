@@ -16,4 +16,9 @@
 // Copyright (C) 2022-2022 Fuwn <contact@fuwn.me>
 // SPDX-License-Identifier: GPL-3.0-only
 
-fn main() -> anyhow::Result<()> { vergen::vergen(vergen::Config::default()) }
+use std::env::var;
+
+fn main() {
+  println!("cargo:rustc-env=TARGET={}", var("TARGET").unwrap());
+  println!("cargo:rustc-env=PROFILE={}", var("PROFILE").unwrap());
+}

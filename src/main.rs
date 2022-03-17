@@ -25,11 +25,10 @@ use crate::export::Exporter;
 fn main() {
   let matches = clap::Command::new(env!("CARGO_PKG_NAME"))
     .version(&*format!(
-      "{}(1)-{}-({})-{}",
+      "{}(1)-{}-({})",
       env!("CARGO_PKG_VERSION"),
-      env!("VERGEN_CARGO_PROFILE"),
-      env!("VERGEN_CARGO_TARGET_TRIPLE"),
-      env!("VERGEN_GIT_SHA").get(0..7).unwrap(),
+      env!("PROFILE"),
+      env!("TARGET"),
     ))
     .author(env!("CARGO_PKG_AUTHORS"))
     .subcommand_required(true)
