@@ -29,10 +29,6 @@ Quick links
       <img src="https://img.shields.io/crates/v/senpy-cli.svg"
            alt="Crate" />
     </a>
-    <a href="https://docs.rs/senpy-cli">
-      <img src="https://docs.rs/senpy-cli/badge.svg"
-           alt="Documentation" />
-    </a>
     <a href="https://github.com/senpy-club/lci/actions/workflows/check.yaml">
       <img src="https://github.com/senpy-club/cli/actions/workflows/check.yaml/badge.svg?branch=main"
            alt="Build Status" />
