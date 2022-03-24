@@ -43,7 +43,7 @@ Install from crates.io
 
 .. code-block:: shell
 
-  $ cargo install senpy-cli --force
+  $ cargo +nightly install senpy-cli --force
 
 Download from releases
 ----------------------
@@ -58,7 +58,7 @@ Install from self-compile
 
 .. code-block:: shell
 
-  $ cargo install --git https://github.com/senpy-club/cli --branch main
+  $ cargo +nightly install --git https://github.com/senpy-club/cli --branch main
 
 If you are building and installing yourself; you must have
 `Rust <https://www.rust-lang.org/>`_ installed!
