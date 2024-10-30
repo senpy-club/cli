@@ -29,7 +29,7 @@ opt-level = "s"
 clap = "3.1.6"
 
 # The Senpy Club API
-senpy = "0.1.2"
+senpy = "0.1.3"
 
 # Serialization
 serde = "1.0.136"
